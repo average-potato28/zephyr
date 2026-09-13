@@ -81,4 +81,14 @@
 #define STM32_FMC_ACCESS_MODE_C                    0x20000000UL
 #define STM32_FMC_ACCESS_MODE_D                    0x30000000UL
 
+/**
+ * @name Data Hold Duration
+ * @{
+ */
+#define STM32_FMC_DATA_HOLD_0_CYCLES               0 /**< Data hold duration of 0 HCLK cycles. */
+#define STM32_FMC_DATA_HOLD_1_CYCLES               1 /**< Data hold duration of 1 HCLK cycle. */
+#define STM32_FMC_DATA_HOLD_2_CYCLES               2 /**< Data hold duration of 2 HCLK cycles. */
+#define STM32_FMC_DATA_HOLD_3_CYCLES               3 /**< Data hold duration of 3 HCLK cycles. */
+/** @} */
+
 #endif /* ZEPHYR_INCLUDE_DT_BINDINGS_MEMORY_CONTROLLER_STM32_FMC_NOR_PSRAM_H_ */
